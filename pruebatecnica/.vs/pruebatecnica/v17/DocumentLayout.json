@@ -1,0 +1,322 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\pruebatecnica\\pruebatecnica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\contrato\\iproductcontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\contrato\\iproductcontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\contrato\\iuserscontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\contrato\\iuserscontrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\middleware\\passwordhashhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\middleware\\passwordhashhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\implementacion\\usuarioslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\implementacion\\usuarioslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\pruebatecnica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\pruebatecnica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|e:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\implementacion\\productoslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71581B24-E02B-4AF7-ABC9-AF4865FB09FD}|pruebatecnica\\pruebatecnica.csproj|solutionrelative:pruebatecnica\\implementacion\\productoslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "pruebatecnica\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Properties\\launchSettings.json",
+              "RelativeToolTip": "pruebatecnica\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T19:24:08.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordHashHandler.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Middleware\\PasswordHashHandler.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Middleware\\PasswordHashHandler.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Middleware\\PasswordHashHandler.cs",
+              "RelativeToolTip": "pruebatecnica\\Middleware\\PasswordHashHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:43:18.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Controllers\\UsuariosController.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "pruebatecnica\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:30:34.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Controllers\\ProductosController.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "pruebatecnica\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:30:19.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Models\\Producto.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Models\\Producto.cs",
+              "RelativeToolTip": "pruebatecnica\\Models\\Producto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:28:07.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductosLogic.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Implementacion\\ProductosLogic.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Implementacion\\ProductosLogic.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Implementacion\\ProductosLogic.cs",
+              "RelativeToolTip": "pruebatecnica\\Implementacion\\ProductosLogic.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:26:28.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuariosLogic.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Implementacion\\UsuariosLogic.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Implementacion\\UsuariosLogic.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Implementacion\\UsuariosLogic.cs",
+              "RelativeToolTip": "pruebatecnica\\Implementacion\\UsuariosLogic.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:25:04.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductContrato.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Contrato\\IProductContrato.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Contrato\\IProductContrato.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Contrato\\IProductContrato.cs",
+              "RelativeToolTip": "pruebatecnica\\Contrato\\IProductContrato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:24:10.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsersContrato.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Contrato\\IUsersContrato.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Contrato\\IUsersContrato.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Contrato\\IUsersContrato.cs",
+              "RelativeToolTip": "pruebatecnica\\Contrato\\IUsersContrato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T10:23:33.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Startup.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Startup.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Startup.cs",
+              "RelativeToolTip": "pruebatecnica\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T02:42:21.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Context\\AppDbContext.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "pruebatecnica\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T02:27:24.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Models\\Persona.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Models\\Persona.cs",
+              "RelativeToolTip": "pruebatecnica\\Models\\Persona.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T02:12:26.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Users.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Models\\Users.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Models\\Users.cs",
+              "RelativeToolTip": "pruebatecnica\\Models\\Users.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T01:29:40.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "pruebatecnica\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T01:27:56.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "pruebatecnica.csproj",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\pruebatecnica.csproj",
+              "RelativeDocumentMoniker": "pruebatecnica\\pruebatecnica.csproj",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\pruebatecnica.csproj",
+              "RelativeToolTip": "pruebatecnica\\pruebatecnica.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-22T01:26:43.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\appsettings.json",
+              "RelativeDocumentMoniker": "pruebatecnica\\appsettings.json",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\appsettings.json",
+              "RelativeToolTip": "pruebatecnica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-21T22:38:33.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Program.cs",
+              "RelativeDocumentMoniker": "pruebatecnica\\Program.cs",
+              "ToolTip": "E:\\pruebatecnica\\pruebatecnica\\pruebatecnica\\Program.cs",
+              "RelativeToolTip": "pruebatecnica\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T19:51:54.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

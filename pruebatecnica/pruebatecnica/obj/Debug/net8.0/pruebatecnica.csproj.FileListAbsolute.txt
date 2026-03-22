@@ -1,0 +1,7 @@
+E:\pruebatecnica\pruebatecnica\pruebatecnica\obj\Debug\net8.0\pruebatecnica.csproj.AssemblyReference.cache
+E:\pruebatecnica\pruebatecnica\pruebatecnica\obj\Debug\net8.0\pruebatecnica.GeneratedMSBuildEditorConfig.editorconfig
+E:\pruebatecnica\pruebatecnica\pruebatecnica\obj\Debug\net8.0\pruebatecnica.AssemblyInfoInputs.cache
+E:\pruebatecnica\pruebatecnica\pruebatecnica\obj\Debug\net8.0\pruebatecnica.AssemblyInfo.cs
+E:\pruebatecnica\pruebatecnica\pruebatecnica\obj\Debug\net8.0\pruebatecnica.csproj.CoreCompileInputs.cache
+E:\pruebatecnica\pruebatecnica\pruebatecnica\obj\Debug\net8.0\pruebatecnica.MvcApplicationPartsAssemblyInfo.cs
+E:\pruebatecnica\pruebatecnica\pruebatecnica\obj\Debug\net8.0\pruebatecnica.MvcApplicationPartsAssemblyInfo.cache
