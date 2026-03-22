@@ -6,7 +6,7 @@ class Usuario {
   final int? idPersona;
   final int? usuarioCondicion;
   final int? idRol;
-  final String? firebaseUid;  // ← nuevo
+  final String? firebaseUid;
 
   Usuario({
     this.idUsuario,
@@ -16,6 +16,6 @@ class Usuario {
     this.idPersona,
     this.usuarioCondicion,
     this.idRol,
-    this.firebaseUid,           // ← nuevo
+    this.firebaseUid, 
   });
 }

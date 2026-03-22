@@ -1,4 +1,3 @@
-// interfaceadapters/views/product/productos_screen.dart
 import 'package:flutter/material.dart';
 import 'package:pruebatecnica/domain/entities/producto.dart';
 import 'package:pruebatecnica/domain/models/producto_model.dart';
@@ -525,7 +524,6 @@ class _ProductosScreenState extends State<ProductosScreen> {
     try {
       final ok = await _repository.actualizarPrecio(producto.idProducto!, nuevoPrecio);
       if (ok) {
-        // Actualiza localmente sin recargar toda la lista
         setState(() {
           final idx = _todos.indexWhere((p) => p.idProducto == producto.idProducto);
           if (idx != -1) {

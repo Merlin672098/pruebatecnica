@@ -1,5 +1,4 @@
 
-//import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 void showSnackBar2(BuildContext context, String text) {
@@ -7,7 +6,7 @@ void showSnackBar2(BuildContext context, String text) {
     content: Row(
       children: [
         Icon(
-          Icons.check_circle_outline,  // Un ícono amigable
+          Icons.check_circle_outline,
           color: Colors.white,
         ),
         SizedBox(width: 10),
@@ -15,19 +14,19 @@ void showSnackBar2(BuildContext context, String text) {
           child: Text(
             text,
             style: TextStyle(
-              color: Colors.white,  // Color de texto
+              color: Colors.white, 
               fontWeight: FontWeight.bold,
             ),
           ),
         ),
       ],
     ),
-    backgroundColor: Colors.green,  // Color de fondo amigable
-    behavior: SnackBarBehavior.floating,  // Para que flote sobre el contenido
+    backgroundColor: Colors.green,
+    behavior: SnackBarBehavior.floating,
     shape: RoundedRectangleBorder(
-      borderRadius: BorderRadius.circular(10),  // Bordes redondeados
+      borderRadius: BorderRadius.circular(10), 
     ),
-    duration: Duration(seconds: 3),  // Tiempo de duración en pantalla
+    duration: Duration(seconds: 3), 
   );
 
   ScaffoldMessenger.of(context).showSnackBar(snackBar);
@@ -46,7 +45,7 @@ void showModalDialog(BuildContext context, String message) {
             child: Text('Aceptar'),
             onPressed: () {
               print('Modal cerrado');
-              Navigator.of(context).pop();  // Cierra el diálogo
+              Navigator.of(context).pop(); 
             },
           ),
         ],

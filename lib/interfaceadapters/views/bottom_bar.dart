@@ -20,7 +20,7 @@ class _BottomBarState extends State<BottomBar> {
   }
 
   List<Widget> get _pages => [
-        DashboardClienteScreen(onNavigate: updatePage),
+        //DashboardClienteScreen(onNavigate: updatePage),
       ];
 
   // ── Paleta BoliShop ──────────────────────────────────────────────────────

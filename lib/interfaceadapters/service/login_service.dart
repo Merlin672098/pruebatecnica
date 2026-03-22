@@ -9,69 +9,67 @@ class LoginService {
   final GoogleSignIn _googleSignIn = GoogleSignIn();
 
   Future<void> signInWithGoogle({required BuildContext context}) async {
-  try {
-    final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
-    if (googleUser == null) return;
-
-    final GoogleSignInAuthentication googleAuth =
-        await googleUser.authentication;
-    final OAuthCredential credential = GoogleAuthProvider.credential(
-      accessToken: googleAuth.accessToken,
-      idToken: googleAuth.idToken,
-    );
-
-    final UserCredential userCredential =
-        await FirebaseAuth.instance.signInWithCredential(credential);
-    final User? firebaseUser = userCredential.user;
-    if (firebaseUser == null) throw Exception('Error al autenticar');
-
-    print('✅ Firebase OK - uid: ${firebaseUser.uid}');
-
-    final repository = UsuarioRepositoryImpl();
-
     try {
-      final usuarioExistente =
-          await repository.obtenerByFirebaseUid(firebaseUser.uid);
+      final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
+      if (googleUser == null) return;
 
-      if (usuarioExistente == null) {
-        print('🆕 Creando usuario en .NET...');
-        final creado = await repository.create(Usuario(
-          firebaseUid:      firebaseUser.uid,
-          usuarioEmail:     firebaseUser.email,
-          usuarioNombre:    firebaseUser.displayName,
-          usuarioCondicion: 1,
-        ));
-        print('✅ Resultado create: $creado');
+      final GoogleSignInAuthentication googleAuth =
+          await googleUser.authentication;
+      final OAuthCredential credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth.accessToken,
+        idToken: googleAuth.idToken,
+      );
+
+      final UserCredential userCredential =
+          await FirebaseAuth.instance.signInWithCredential(credential);
+      final User? firebaseUser = userCredential.user;
+      if (firebaseUser == null) throw Exception('Error al autenticar');
+
+      print(' Firebase OK - uid: ${firebaseUser.uid}');
+
+      final repository = UsuarioRepositoryImpl();
+
+      try {
+        final usuarioExistente =
+            await repository.obtenerByFirebaseUid(firebaseUser.uid);
+
+        if (usuarioExistente == null) {
+          print('🆕 Creando usuario en .NET...');
+          final creado = await repository.create(Usuario(
+            firebaseUid: firebaseUser.uid,
+            usuarioEmail: firebaseUser.email,
+            usuarioNombre: firebaseUser.displayName,
+            usuarioCondicion: 1,
+          ));
+          print(' Resultado create: $creado');
+        }
+
+        // ← Firebase authStateChanges() detecta el login
+        // y main.dart redirige a VerifyEmailPage → VerificacionRolWidget
+        // No necesitamos navegar manualmente aquí
+      } catch (e) {
+        print(' Error de red: $e');
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('No se puede conectar al servidor'),
+              backgroundColor: Colors.red,
+            ),
+          );
+        }
       }
-
-      // ← Firebase authStateChanges() detecta el login
-      // y main.dart redirige a VerifyEmailPage → VerificacionRolWidget
-      // No necesitamos navegar manualmente aquí
-
     } catch (e) {
-      print('❌ Error de red: $e');
+      print('Error Google sign-in: $e');
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('No se puede conectar al servidor'),
+            content: Text('Error al iniciar sesión con Google'),
             backgroundColor: Colors.red,
           ),
         );
       }
     }
-
-  } catch (e) {
-    print('Error Google sign-in: $e');
-    if (context.mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Error al iniciar sesión con Google'),
-          backgroundColor: Colors.red,
-        ),
-      );
-    }
   }
-}
 
   Future<void> signOut(BuildContext context) async {
     await _googleSignIn.signOut();

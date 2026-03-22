@@ -1,4 +1,3 @@
-// interfaceadapters/views/user/crear_usuario_screen.dart
 import 'package:flutter/material.dart';
 import 'package:pruebatecnica/domain/repository/usuario_repository_impl.dart';
 import '../../../aplication/usecases/crear_usuario_usecase/crear_usuario_interactor.dart';
@@ -66,7 +65,6 @@ class _CrearUsuarioScreenState extends State<CrearUsuarioScreen> {
 
   Future<void> _guardar() async {
     if (keyForm.currentState!.validate()) {
-      // Mismo patrón que tu ejemplo original
       CrearUsuarioInteractor interactor = CrearUsuarioInteractor(
         output:     CrearUsuarioPresenter(context),
         repository: UsuarioRepositoryImpl(),

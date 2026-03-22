@@ -63,7 +63,7 @@ class _BottomBarProveedorState extends State<BottomBarProveedor> {
         ];
         _isLoading = false;
       });
-      print('✅ BottomBarProveedor: Páginas inicializadas correctamente');
+      print(' BottomBarProveedor: Páginas inicializadas correctamente');
     }
   }
 
@@ -81,7 +81,8 @@ class _BottomBarProveedorState extends State<BottomBarProveedor> {
         appBar: AppBar(
           backgroundColor: surfaceColor,
           centerTitle: true,
-          title: Text('MarketBo', style: TextStyle(color: textColor, fontWeight: FontWeight.w600)),
+          title: Text('MarketBo',
+              style: TextStyle(color: textColor, fontWeight: FontWeight.w600)),
         ),
         body: Center(
           child: Column(
